@@ -1,7 +1,7 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
-import LogoLastName from '../../assets/images/LogoMakr-1gmXnC-Andrews.png';
-import LogoA from '../../assets/images/LogoMakr-9h74PB-A.png';
+import LogoLastName from '../../assets/images/Rich.png';
+import LogoA from '../../assets/images/LetterR.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
@@ -31,15 +31,11 @@ const Sidebar = () => {
                     <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e'/>
                 </a>
             </li>   
-        </ul>
-        <ul>
             <li>
                 <a target='_blank' rel='noreferrer' href='https://github.com/randr44'>
                     <FontAwesomeIcon icon={faGithub} color='#4d4d4e'/>
                 </a>
             </li>   
-        </ul>
-        <ul>
             <li>
                 <a target='_blank' rel='noreferrer' href='skype:live:richard.andrews1981'>
                     <FontAwesomeIcon icon={faSkype} color='#4d4d4e'/>
