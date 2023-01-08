@@ -7,8 +7,8 @@ import { faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icon
 import { Link, NavLink } from 'react-router-dom';
 
 
-const Sidebar = () => {
-  return (
+export default function Sidebar () {
+  return <>
     <div className='nav-bar'>
         <Link className='logo' to='/'>
             <img src={LetterR} alt='logo' />
@@ -43,7 +43,6 @@ const Sidebar = () => {
             </li>   
         </ul>
     </div>
-  )
+    </>
 }
 
-export default Sidebar
