@@ -1,0 +1,16 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/Screenshot.png",
+            "title": "Calloway Prints",
+            "description": "Wordpress, Namecheap Hosting, Elementor, Booking Plugin",
+            "url": "https://callowayprints.com"
+        },
+        {
+            "cover": "/portfolio/1/Screenshot2.png",
+            "title": "Calloway Prints",
+            "description": "Wordpress, Namecheap Hosting, Elementor, Booking Plugin",
+            "url": "https://callowayprints.com"
+        }
+    ]
+}

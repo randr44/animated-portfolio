@@ -2,7 +2,7 @@ import './index.scss';
 import LogoName from '../../assets/images/Rich.png';
 import LetterR from '../../assets/images/LetterR.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
 import { Link, NavLink } from 'react-router-dom';
 
@@ -20,6 +20,9 @@ export default function Sidebar () {
             </NavLink>
             <NavLink activeclassname='active' className='about-link' to='/about'>
                 <FontAwesomeIcon icon={faUser} color='#4d4d4e'/>
+            </NavLink>
+            <NavLink activeclassname='active' className='portfolio-link' to='/portfolio'>
+                <FontAwesomeIcon icon={faSuitcase} color='#4d4d4e'/>
             </NavLink>
             <NavLink activeclassname='active' className='contact-link' to='/contact'>
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'/>
