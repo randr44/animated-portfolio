@@ -16,7 +16,7 @@
         font-family: 'Coolvetica', sans-serif;
         font-weight: 400;
 
-        &::before {
+        &:before {
             content: '<h1>';
             font-family: 'La Belle Aurore', cursive;
             color: #ffd700;
@@ -26,7 +26,7 @@
             left: 15px;
             opacity: 0.6
         }
-        &::after {
+        &:after {
             content: '<h1/>';
             font-family: 'La Belle Aurore', cursive;
             color: #ffd700;
@@ -60,7 +60,7 @@
     } 
     
     .flat-button {
-        color: #fff;          background: #ffd700;
+        color: #ffd700;          
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 4px;
@@ -70,56 +70,56 @@
         border: 1px solid #ffd700;
         margin-top: 25px;
         float: left;
-        animation: fadeIn 1s 1.8s backwards;
+        animation: fadeInAnimation 1s 1.8s backwards;
         white-space: nowrap;
 
         &:hover {
             background: #ffd700;
             color: #333;
         }
-
     }
 }
 
-// @media screen and (max-width: 1200px) {
-//     .tags,
-//     .home-page h1:before,
-//     .home-page h1:after {
-//       display: none;
-//     }
+@media screen and (max-width: 1200px) {
+    .tags,
+    .home-page h1:before,
+    .home-page h1:after {
+      display: none;
+    }
   
-//     .home-page .text-zone {
-//       position: initial;
-//       width: 100%;
-//       transform: none;
-//       padding: 10px;
-//       box-sizing: border-box;
-//     }
+    .home-page .text-zone {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
   
-//     .home-page .flat-button {
-//       float: none;
-//       display: block;
-//       margin: 20px auto 0 auto;
-//       width: 124px;
-//     }
+    .home-page .flat-button {
+      float: left;
+      display: block;
+      margin: 20px auto 0 auto;
+      width: 124px;
+   
+    }
   
-//     .logo-container {
-//       position: relative;
-//       width: 100px;
-//       height: auto;
-//       top: 50px;
-//       right: 0;
-//       box-sizing: border-box;
-//       margin: auto;
-//       left: 0;
-//     }
+    .logo-container {
+      position: relative;
+      width: 100px;
+      height: auto;
+      top: 50px;
+      right: 0;
+      box-sizing: border-box;
+      margin: 20px;
+      left: 0;
+    }
   
-//     .logo-container svg {
-//       position: absolute;
-//       top: auto;
-//       right: auto;
-//       bottom: auto;
-//       left: 0;
-//       margin: auto;
-//     }
-//   }
+    .logo-container svg {
+      position: absolute;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: 0;
+      margin: auto;
+    }
+  }
